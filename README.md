@@ -20,10 +20,10 @@ $ cd [datadir]
 $ wget http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip
 $ unzip mnist_rotation_new.zip 
 $ rm mnist_rotation_new.zip
-$ ipython /path/to/gconv_experiments/gconv_experiments/MNIST_ROT/mnist_rot.py -- --datadir=./
+$ ipython /path_to_repo/objmanifold-equivariance/data/MNIST_ROT/mnist_rot.py -- --datadir=./
 ```
 
-The corresponding models are defined in the models/ folder, with the g-convolution layer in layers/gconvlayer.py (credit to Theodosis, E., Helwani, K. and Ba, D., 2023. Learning Linear Groups in Neural Networks. arXiv preprint arXiv:2305.18552 for this layer).
+The corresponding models are defined in the models folder, with the g-convolution layer in layers/gconvlayer.py (credit to Theodosis, E., Helwani, K. and Ba, D., 2023. Learning Linear Groups in Neural Networks. arXiv preprint arXiv:2305.18552 for this layer).
 
 The file make_figures.ipynb generates the figures included in the report.
 
