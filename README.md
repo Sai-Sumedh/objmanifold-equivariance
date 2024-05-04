@@ -1,7 +1,8 @@
 # Manifold Analysis for Equivariant Models
 
+Course project for Applied Math 220, Spring 2024, Harvard SEAS
 
-
+Compute manifold dimension, radius and classification capacity for a CNN and GCNN (group-equivariant convolutional network)
 
 
 Requires the following modifications in  packages to work:
